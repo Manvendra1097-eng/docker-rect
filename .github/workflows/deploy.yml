@@ -21,8 +21,8 @@ jobs:
         with:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY }}
           aws_secret_key: ${{ secrets.AWS_SECRET_KEY }}
-          application_name: newtest
-          environment_name: Newtest-env
+          application_name: test
+          environment_name: Test-env
           region: us-east-1
           version_label: ${{ github.sha }}
           deployment_package: deploy.zip
